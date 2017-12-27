@@ -1,0 +1,35 @@
+blzg-read:
+  image: mikeleganaaranguren/blazegraph:READONLY-2.1.4
+  ports:
+    - "8082:8080"
+  links:
+    - blzg-write
+  volumes:
+    - ./lod/data:/usr/local/data
+blzg-write:
+  image: mikeleganaaranguren/blazegraph:READWRITE-2.1.4
+  ports:
+    - "8081:8080"
+  volumes:
+    - ./lod/data:/usr/local/data
+httpd:
+    volumes:
+      - ./logs:/var/log/apache2
+#      - ./wwwroot:/var/www/html
+    ports:
+      - "8888:80"
+    build: httpd/.
+haproxy:
+  image: haproxy
+  volumes:
+   - haproxy:/haproxy-override
+   - ./haproxy:/usr/local/etc/haproxy
+  links:
+   - blzg-read
+#   - webb
+#   - webc
+  ports:
+   - "8080:80"
+
+  expose:
+   - "80"
