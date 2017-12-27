@@ -179,3 +179,9 @@
 [Wed Dec 27 12:48:58.462 2017] [8:139902855411456] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
 [Wed Dec 27 12:48:58.462 2017] [8:139902855411456] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
 [Wed Dec 27 12:48:58.463 2017] web_1 r2d2.ftp.sh 0.102066
+[Wed Dec 27 13:54:27.136 2017] [8:140638903486336] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 13:54:27.167 2017] [8:140638903486336] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 13:58:11.757 2017] [8:139978523092864] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 13:58:11.774 2017] [8:139978523092864] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:01:34.905 2017] [8:140525801740160] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:01:34.922 2017] [8:140525801740160] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
