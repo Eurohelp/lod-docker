@@ -1,3 +1,11 @@
+replicate-jenkins:
+ image: dmuchuari/replicate-jenkins:latest
+ ports:
+       - "9999:8080"
+ entrypoint: /bin/sh -c "/bin/bash -c \"$${@}\""
+ command: |
+      /bin/bash -c "chmod 777 /etc/jenkins_jobs/script-to-execute.sh && ./etc/jenkins_jobs/script-to-execute.sh"
+
 blzg-read1:
   image: mikeleganaaranguren/blazegraph:READONLY-2.1.4
 #  ports:
@@ -23,7 +31,7 @@ blzg-write:
 httpd:
     volumes:
       - ./logs:/var/log/apache2
-#      - ./wwwroot:/var/www/html
+      - ./wwwroot:/var/www/html
     ports:
       - "8888:80"
     build: httpd/.
@@ -44,10 +52,3 @@ haproxy:
    - "80"
 
 
-replicate-jenkins:
- image: dmuchuari/replicate-jenkins:latest
- ports: 
-       - "9999:8080"
- entrypoint: /bin/sh -c "/bin/bash -c \"$${@}\""
- command: |
-      /bin/bash -c "chmod 777 /etc/jenkins_jobs/script-to-execute.sh && ./etc/jenkins_jobs/script-to-execute.sh"
