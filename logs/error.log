@@ -63,3 +63,12 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Wed Dec 27 12:01:04.652860 2017] [jk:warn] [pid 7:tid 140429114001280] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
 [Wed Dec 27 12:01:04.660028 2017] [mpm_event:notice] [pid 7:tid 140429114001280] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
 [Wed Dec 27 12:01:04.660089 2017] [core:notice] [pid 7:tid 140429114001280] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Dec 27 12:48:17.663435 2017] [jk:warn] [pid 7:tid 139903057938304] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 12:48:17.663670 2017] [jk:warn] [pid 7:tid 139903057938304] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 12:48:17.666016 2017] [jk:warn] [pid 7:tid 139903057938304] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 12:48:17.686872 2017] [jk:warn] [pid 7:tid 139903057938304] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 12:48:17.686906 2017] [jk:warn] [pid 7:tid 139903057938304] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 12:48:17.686989 2017] [jk:warn] [pid 7:tid 139903057938304] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+[Wed Dec 27 12:48:17.698550 2017] [mpm_event:notice] [pid 7:tid 139903057938304] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
+[Wed Dec 27 12:48:17.698606 2017] [core:notice] [pid 7:tid 139903057938304] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
