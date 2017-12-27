@@ -1,15 +1,15 @@
 blzg-read1:
   image: mikeleganaaranguren/blazegraph:READONLY-2.1.4
-  ports:
-    - "8082:8080"
+#  ports:
+#    - "8082:8080"
   links:
     - blzg-write
   volumes:
     - ./lod/data:/usr/local/data
 blzg-read2:
   image: mikeleganaaranguren/blazegraph:READONLY-2.1.4
-  ports:
-    - "8083:8080"
+#  ports:
+#    - "8083:8080"
   links:
     - blzg-write
   volumes:
