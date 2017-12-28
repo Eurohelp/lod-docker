@@ -99,3 +99,57 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Wed Dec 27 14:01:34.913339 2017] [jk:warn] [pid 8:tid 140525801740160] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
 [Wed Dec 27 14:01:34.924421 2017] [mpm_event:notice] [pid 8:tid 140525801740160] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
 [Wed Dec 27 14:01:34.924478 2017] [core:notice] [pid 8:tid 140525801740160] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Dec 27 15:32:40.674542 2017] [jk:warn] [pid 6:tid 139632034068352] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:32:40.690887 2017] [jk:warn] [pid 6:tid 139632034068352] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:32:40.690963 2017] [jk:warn] [pid 6:tid 139632034068352] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 15:32:40.742224 2017] [jk:warn] [pid 6:tid 139632034068352] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:32:40.742264 2017] [jk:warn] [pid 6:tid 139632034068352] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:32:40.743664 2017] [jk:warn] [pid 6:tid 139632034068352] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+[Wed Dec 27 15:32:40.782146 2017] [mpm_event:notice] [pid 6:tid 139632034068352] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
+[Wed Dec 27 15:32:40.782162 2017] [core:notice] [pid 6:tid 139632034068352] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Dec 27 15:38:23.348798 2017] [jk:warn] [pid 6:tid 139939969755008] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:38:23.348902 2017] [jk:warn] [pid 6:tid 139939969755008] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:38:23.348954 2017] [jk:warn] [pid 6:tid 139939969755008] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 15:38:23.395141 2017] [jk:warn] [pid 6:tid 139939969755008] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:38:23.395156 2017] [jk:warn] [pid 6:tid 139939969755008] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:38:23.395189 2017] [jk:warn] [pid 6:tid 139939969755008] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+[Wed Dec 27 15:38:23.444293 2017] [mpm_event:notice] [pid 6:tid 139939969755008] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
+[Wed Dec 27 15:38:23.444311 2017] [core:notice] [pid 6:tid 139939969755008] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Dec 27 15:39:52.376963 2017] [jk:warn] [pid 6:tid 140502758332288] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:39:52.418186 2017] [jk:warn] [pid 6:tid 140502758332288] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:39:52.418244 2017] [jk:warn] [pid 6:tid 140502758332288] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 15:39:52.542045 2017] [jk:warn] [pid 6:tid 140502758332288] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:39:52.542062 2017] [jk:warn] [pid 6:tid 140502758332288] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:39:52.542095 2017] [jk:warn] [pid 6:tid 140502758332288] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+[Wed Dec 27 15:39:52.566786 2017] [mpm_event:notice] [pid 6:tid 140502758332288] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
+[Wed Dec 27 15:39:52.566803 2017] [core:notice] [pid 6:tid 140502758332288] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Dec 27 15:43:33.421340 2017] [jk:warn] [pid 6:tid 139856251451264] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:43:33.421403 2017] [jk:warn] [pid 6:tid 139856251451264] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:43:33.421450 2017] [jk:warn] [pid 6:tid 139856251451264] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 15:43:33.478049 2017] [jk:warn] [pid 6:tid 139856251451264] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:43:33.478073 2017] [jk:warn] [pid 6:tid 139856251451264] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:43:33.478108 2017] [jk:warn] [pid 6:tid 139856251451264] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+[Wed Dec 27 15:43:33.542904 2017] [mpm_event:notice] [pid 6:tid 139856251451264] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
+[Wed Dec 27 15:43:33.542921 2017] [core:notice] [pid 6:tid 139856251451264] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Dec 27 15:45:12.167694 2017] [jk:warn] [pid 6:tid 140639141611392] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:45:12.167844 2017] [jk:warn] [pid 6:tid 140639141611392] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:45:12.167908 2017] [jk:warn] [pid 6:tid 140639141611392] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 15:45:12.210958 2017] [jk:warn] [pid 6:tid 140639141611392] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:45:12.210978 2017] [jk:warn] [pid 6:tid 140639141611392] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:45:12.211012 2017] [jk:warn] [pid 6:tid 140639141611392] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+[Wed Dec 27 15:45:12.285770 2017] [mpm_event:notice] [pid 6:tid 140639141611392] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
+[Wed Dec 27 15:45:12.285790 2017] [core:notice] [pid 6:tid 140639141611392] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Dec 27 15:47:47.233694 2017] [jk:warn] [pid 6:tid 140443160192896] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:47:47.233764 2017] [jk:warn] [pid 6:tid 140443160192896] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:47:47.233819 2017] [jk:warn] [pid 6:tid 140443160192896] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 15:47:47.282283 2017] [jk:warn] [pid 6:tid 140443160192896] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:47:47.282298 2017] [jk:warn] [pid 6:tid 140443160192896] No JkLogFile defined in httpd.conf. Using default /var/log/apache2/mod_jk.log
+[Wed Dec 27 15:47:47.282331 2017] [jk:warn] [pid 6:tid 140443160192896] No JkShmFile defined in httpd.conf. Using default /var/log/apache2/jk-runtime-status
+[Wed Dec 27 15:47:47.333353 2017] [mpm_event:notice] [pid 6:tid 140443160192896] AH00489: Apache/2.4.18 (Ubuntu) mod_jk/1.2.41 configured -- resuming normal operations
+[Wed Dec 27 15:47:47.333373 2017] [core:notice] [pid 6:tid 140443160192896] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

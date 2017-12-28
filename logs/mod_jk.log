@@ -185,3 +185,27 @@
 [Wed Dec 27 13:58:11.774 2017] [8:139978523092864] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
 [Wed Dec 27 14:01:34.905 2017] [8:140525801740160] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
 [Wed Dec 27 14:01:34.922 2017] [8:140525801740160] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:32:40.731 2017] [6:139632034068352] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:32:40.732 2017] [6:139632034068352] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:32:40.781 2017] [6:139632034068352] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:32:40.781 2017] [6:139632034068352] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:38:23.389 2017] [6:139939969755008] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:38:23.389 2017] [6:139939969755008] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:38:23.443 2017] [6:139939969755008] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:38:23.443 2017] [6:139939969755008] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:39:52.455 2017] [6:140502758332288] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:39:52.495 2017] [6:140502758332288] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:39:52.565 2017] [6:140502758332288] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:39:52.566 2017] [6:140502758332288] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:43:33.460 2017] [6:139856251451264] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:43:33.461 2017] [6:139856251451264] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:43:33.542 2017] [6:139856251451264] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:43:33.542 2017] [6:139856251451264] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:45:12.207 2017] [6:140639141611392] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:45:12.207 2017] [6:140639141611392] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:45:12.257 2017] [6:140639141611392] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:45:12.257 2017] [6:140639141611392] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:47:47.271 2017] [6:140443160192896] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:47:47.271 2017] [6:140443160192896] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:47:47.332 2017] [6:140443160192896] [error] ajp_validate::jk_ajp_common.c (2867): worker web_1 can't resolve tomcat address dockerhttpdtomcat_web_1
+[Wed Dec 27 15:47:47.332 2017] [6:140443160192896] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
