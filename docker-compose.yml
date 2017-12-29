@@ -6,7 +6,7 @@ apache2:
     - ./httpd/wwwroot:/var/www/html
 
 blzg-read1:
-  image: mikeleganaaranguren/blazegraph:READONLY-2.1.4
+  build: ./blzg-read
 #  ports:
 #    - "8082:8080"
   links:
@@ -14,7 +14,7 @@ blzg-read1:
   volumes:
     - ./lod/data:/usr/local/data
 blzg-read2:
-  image: mikeleganaaranguren/blazegraph:READONLY-2.1.4
+  build: ./blzg-read
 #  ports:
 #    - "8083:8080"
   links:
@@ -22,7 +22,7 @@ blzg-read2:
   volumes:
     - ./lod/data:/usr/local/data
 blzg-write:
-  image: mikeleganaaranguren/blazegraph:READWRITE-2.1.4
+  build: ./blzg-write
   ports:
     - "8081:8080"
   volumes:
