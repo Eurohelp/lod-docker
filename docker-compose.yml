@@ -6,6 +6,13 @@ replicate-jenkins:
  command: |
       /bin/bash -c "chmod 777 /etc/jenkins_jobs/script-to-execute.sh && ./etc/jenkins_jobs/script-to-execute.sh"
 
+apache2:
+  build: ./httpd
+  ports:
+    - "8888:80"
+  volumes:
+    - ./httpd/wwwroot:/var/www/html
+
 blzg-read1:
   image: mikeleganaaranguren/blazegraph:READONLY-2.1.4
 #  ports:
@@ -28,13 +35,6 @@ blzg-write:
     - "8081:8080"
   volumes:
     - ./lod/data:/usr/local/data
-httpd:
-    volumes:
-      - ./logs:/var/log/apache2
-      - ./wwwroot:/var/www/html
-    ports:
-      - "8888:80"
-    build: httpd/.
 haproxy:
   image: haproxy
   volumes:

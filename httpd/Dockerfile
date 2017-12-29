@@ -1,19 +1,16 @@
-FROM ubuntu:latest
+FROM centos:7
+MAINTAINER The CentOS Project <cloud-ops@centos.org>
+LABEL Vendor="CentOS" \
+      License=GPLv2 \
+      Version=2.4.6-40
+RUN yum -y --setopt=tsflags=nodocs update && \
+    yum -y --setopt=tsflags=nodocs install httpd && \
+    yum clean all
+EXPOSE 80
 
-MAINTAINER kakapari@gmail.com
+# Simple startup script to avoid some issues observed with container restart
+ADD run-httpd.sh /run-httpd.sh
+ADD lod.conf /etc/httpd/conf.d
+RUN chmod -v +x /run-httpd.sh
 
-RUN apt-get update && apt-get install -y --no-install-recommends apache2 libapache2-mod-jk
-
-ADD apache2.conf /etc/apache2/apache2.conf
-
-ADD 000-default.conf /etc/apache2/sites-enabled/000-default.conf
-
-ADD worker.properties /etc/libapache2-mod-jk/workers.properties
-
-ADD jk.conf /etc/apache2/mods-available/jk.conf
-
-VOLUME ["/var/log/apache2"]
-
-#EXPOSE 80 443
-
-CMD ["apachectl", "-k", "start", "-DFOREGROUND"]
+CMD ["/run-httpd.sh"]
