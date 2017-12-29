@@ -185,3 +185,122 @@
 [Wed Dec 27 13:58:11.774 2017] [8:139978523092864] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
 [Wed Dec 27 14:01:34.905 2017] [8:140525801740160] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
 [Wed Dec 27 14:01:34.922 2017] [8:140525801740160] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:24:47.249 2017] [7:140449027700608] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:24:47.262 2017] [7:140449027700608] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:27:47.703 2017] [8:139744537790336] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:27:47.711 2017] [8:139744537790336] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:55:10.854 2017] [7:140227200317312] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 14:55:10.869 2017] [7:140227200317312] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:02:21.132 2017] [8:140080269469568] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:02:21.153 2017] [8:140080269469568] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:04:09.265 2017] [7:139767322732416] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:04:09.277 2017] [7:139767322732416] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:19:28.158 2017] [8:140224194664320] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:19:28.165 2017] [8:140224194664320] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:20:18.797 2017] [9:140224038434560] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Wed Dec 27 15:20:18.797 2017] [9:140224038434560] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Wed Dec 27 15:20:18.797 2017] [9:140224038434560] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Wed Dec 27 15:20:18.797 2017] [9:140224038434560] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Wed Dec 27 15:20:18.906 2017] [9:140224038434560] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Wed Dec 27 15:20:18.906 2017] [9:140224038434560] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Wed Dec 27 15:20:18.906 2017] [9:140224038434560] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Wed Dec 27 15:20:18.906 2017] [9:140224038434560] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Wed Dec 27 15:20:18.906 2017] [9:140224038434560] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Wed Dec 27 15:20:18.906 2017] [9:140224038434560] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Wed Dec 27 15:20:18.925 2017] web_1 r2d2.ftp.sh 0.116487
+[Wed Dec 27 15:20:23.734 2017] [10:140224038434560] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Wed Dec 27 15:20:23.734 2017] [10:140224038434560] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Wed Dec 27 15:20:23.734 2017] [10:140224038434560] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Wed Dec 27 15:20:23.734 2017] [10:140224038434560] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Wed Dec 27 15:20:23.835 2017] [10:140224038434560] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Wed Dec 27 15:20:23.835 2017] [10:140224038434560] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Wed Dec 27 15:20:23.835 2017] [10:140224038434560] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Wed Dec 27 15:20:23.835 2017] [10:140224038434560] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Wed Dec 27 15:20:23.835 2017] [10:140224038434560] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Wed Dec 27 15:20:23.835 2017] [10:140224038434560] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Wed Dec 27 15:20:23.835 2017] web_1 r2d2.ftp.sh 0.103775
+[Wed Dec 27 15:52:35.484 2017] [8:140027396044672] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Wed Dec 27 15:52:35.496 2017] [8:140027396044672] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Thu Dec 28 08:06:58.848 2017] [8:139685064165248] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Thu Dec 28 08:06:58.858 2017] [8:139685064165248] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Thu Dec 28 08:12:44.521 2017] [9:139684885821184] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:44.521 2017] [9:139684885821184] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:44.521 2017] [9:139684885821184] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:44.521 2017] [9:139684885821184] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Dec 28 08:12:44.622 2017] [9:139684885821184] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:44.622 2017] [9:139684885821184] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:44.622 2017] [9:139684885821184] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:44.622 2017] [9:139684885821184] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Dec 28 08:12:44.622 2017] [9:139684885821184] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Dec 28 08:12:44.622 2017] [9:139684885821184] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Thu Dec 28 08:12:44.624 2017] web_1 r2d2.ftp.sh 0.102983
+[Thu Dec 28 08:12:44.979 2017] [9:139684860643072] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:44.979 2017] [9:139684860643072] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:44.979 2017] [9:139684860643072] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:44.979 2017] [9:139684860643072] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Dec 28 08:12:45.021 2017] [9:139684827072256] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:45.022 2017] [9:139684827072256] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:45.022 2017] [9:139684827072256] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:45.022 2017] [9:139684827072256] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Dec 28 08:12:45.080 2017] [9:139684860643072] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:45.080 2017] [9:139684860643072] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:45.080 2017] [9:139684860643072] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:45.080 2017] [9:139684860643072] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Dec 28 08:12:45.080 2017] [9:139684860643072] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Dec 28 08:12:45.080 2017] [9:139684860643072] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Thu Dec 28 08:12:45.081 2017] web_1 r2d2.ftp.sh 0.101892
+[Thu Dec 28 08:12:45.122 2017] [9:139684827072256] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:45.122 2017] [9:139684827072256] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:45.122 2017] [9:139684827072256] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:45.122 2017] [9:139684827072256] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Dec 28 08:12:45.122 2017] [9:139684827072256] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Thu Dec 28 08:12:45.122 2017] [9:139684827072256] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Thu Dec 28 08:12:45.123 2017] web_1 r2d2.ftp.sh 0.101509
+[Thu Dec 28 08:12:51.029 2017] [10:139684975585024] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:51.029 2017] [10:139684975585024] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:51.029 2017] [10:139684975585024] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:51.029 2017] [10:139684975585024] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Dec 28 08:12:51.130 2017] [10:139684975585024] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:51.130 2017] [10:139684975585024] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:51.130 2017] [10:139684975585024] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:51.130 2017] [10:139684975585024] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Dec 28 08:12:51.130 2017] [10:139684975585024] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Thu Dec 28 08:12:51.130 2017] [10:139684975585024] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Thu Dec 28 08:12:51.130 2017] web_1 r2d2.ftp.sh 0.101663
+[Thu Dec 28 08:12:58.567 2017] [10:139684967192320] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:58.568 2017] [10:139684967192320] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:58.568 2017] [10:139684967192320] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:58.568 2017] [10:139684967192320] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Dec 28 08:12:58.668 2017] [10:139684967192320] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:12:58.668 2017] [10:139684967192320] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:12:58.668 2017] [10:139684967192320] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:12:58.668 2017] [10:139684967192320] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Dec 28 08:12:58.668 2017] [10:139684967192320] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Thu Dec 28 08:12:58.668 2017] [10:139684967192320] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Thu Dec 28 08:12:58.669 2017] web_1 r2d2.ftp.sh 0.101660
+[Thu Dec 28 08:16:11.937 2017] [7:140487168231296] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Thu Dec 28 08:16:11.947 2017] [7:140487168231296] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Thu Dec 28 08:23:55.617 2017] [7:140195044173696] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Thu Dec 28 08:23:55.623 2017] [7:140195044173696] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Thu Dec 28 08:25:19.083 2017] [8:140194955593472] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:25:19.083 2017] [8:140194955593472] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:25:19.083 2017] [8:140194955593472] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:25:19.083 2017] [8:140194955593472] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Dec 28 08:25:19.184 2017] [8:140194955593472] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:25:19.184 2017] [8:140194955593472] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:25:19.184 2017] [8:140194955593472] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:25:19.184 2017] [8:140194955593472] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Dec 28 08:25:19.184 2017] [8:140194955593472] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Dec 28 08:25:19.184 2017] [8:140194955593472] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Thu Dec 28 08:25:19.186 2017] web_1 r2d2.ftp.sh 0.102487
+[Thu Dec 28 08:25:25.561 2017] [8:140194930415360] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:25:25.561 2017] [8:140194930415360] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:25:25.561 2017] [8:140194930415360] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:25:25.561 2017] [8:140194930415360] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Dec 28 08:25:25.662 2017] [8:140194930415360] [info] jk_open_socket::jk_connect.c (817): connect to 91.194.91.220:8009 failed (errno=111)
+[Thu Dec 28 08:25:25.662 2017] [8:140194930415360] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (web_1) Failed opening socket to (91.194.91.220:8009) (errno=111)
+[Thu Dec 28 08:25:25.662 2017] [8:140194930415360] [error] ajp_send_request::jk_ajp_common.c (1728): (web_1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Thu Dec 28 08:25:25.662 2017] [8:140194930415360] [info] ajp_service::jk_ajp_common.c (2773): (web_1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Dec 28 08:25:25.662 2017] [8:140194930415360] [error] ajp_service::jk_ajp_common.c (2794): (web_1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Dec 28 08:25:25.662 2017] [8:140194930415360] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=web_1
+[Thu Dec 28 08:25:25.662 2017] web_1 r2d2.ftp.sh 0.101515
