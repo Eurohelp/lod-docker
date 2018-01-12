@@ -7,26 +7,29 @@ apache2:
 
 blzg-read1:
   build: ./blzg-read
-#  ports:
-#    - "8082:8080"
+  ports:
+    - "8082:8080"
   links:
     - blzg-write
   volumes:
     - ./lod/data:/usr/local/data
+
 blzg-read2:
-  build: ./blzg-read
-#  ports:
-#    - "8083:8080"
+  build: ./blzg-read-30
+  ports:
+    - "8083:8080"
   links:
     - blzg-write
   volumes:
     - ./lod/data:/usr/local/data
+
 blzg-write:
   build: ./blzg-write
   ports:
     - "8081:8080"
   volumes:
     - ./lod/data:/usr/local/data
+
 haproxy:
   image: haproxy
   volumes:
@@ -35,11 +38,8 @@ haproxy:
   links:
    - blzg-read1
    - blzg-read2
-#   - webb
-#   - webc
   ports:
    - "8080:80"
-
   expose:
    - "80"
 
