@@ -30,6 +30,12 @@ blzg-write:
   volumes:
     - ./lod/data:/usr/local/data
 
+lodwar:
+  build: ./lodwar
+  ports:
+    - "8084:8080"
+
+
 haproxy:
   image: haproxy
   volumes:
