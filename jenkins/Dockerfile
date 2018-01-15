@@ -26,3 +26,4 @@ RUN mkdir /etc/jenkins_jobs/
 ADD jenkins_jobs.ini /etc/jenkins_jobs/
 ADD scm_pipeline.yaml /etc/jenkins_jobs/
 ADD script-to-execute.sh /etc/jenkins_jobs/
+EXPOSE 8080
