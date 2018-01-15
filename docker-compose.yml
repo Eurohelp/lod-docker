@@ -4,7 +4,9 @@ apache2:
     - "8888:80"
   volumes:
     - ./httpd/wwwroot:/var/www/html
-
+  links:
+    - lodwar
+    - replicate-jenkins
 blzg-read1:
   build: ./blzg-read
   ports:
