@@ -36,6 +36,8 @@ lodwar:
   build: ./lodwar
   ports:
     - "8084:8080"
+  links:
+    - haproxy
 
 
 haproxy:
