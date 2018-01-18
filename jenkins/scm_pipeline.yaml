@@ -2,7 +2,16 @@
 -
   job:
     description: "Pipeline ejecuta proyecto alojado en 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'"
-    sandbox: true  
+    sandbox: true
+    parameters:
+      - string:
+          name: host
+          default: ""
+          description: "La ruta donde esta alojado MongoDB"
+      - string:
+          name: port
+          default: ""
+          description: "El puerto donde esta alojado MongoDB" 
     pipeline-scm:
       scm:
         - git:
