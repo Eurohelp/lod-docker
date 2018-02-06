@@ -1,7 +1,7 @@
 apache2:
   build: ./httpd
   ports:
-    - "8888:80"
+    - "80:80"
   volumes:
     - ./httpd/wwwroot:/var/www/html
   links:
