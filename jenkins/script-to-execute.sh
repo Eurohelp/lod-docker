@@ -8,4 +8,4 @@ clear
 	echo "Se ejecuta el pipeline"
 	jenkins-jobs --conf /etc/jenkins_jobs/jenkins_jobs.ini update /etc/jenkins_jobs/scm_pipeline.yaml
 
-sleep 99999
+sleep 9999999999999999999
