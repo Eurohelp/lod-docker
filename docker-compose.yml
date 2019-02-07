@@ -2,6 +2,7 @@ apache2:
   build: ./httpd
   ports:
     - "80:80"
+    - "443:443"
   volumes:
     - ./httpd/wwwroot:/var/www/html
   links:
