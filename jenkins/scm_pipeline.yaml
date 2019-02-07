@@ -1,7 +1,7 @@
 ---
 -
   job:
-    description: "Pipeline ejecuta proyecto alojado en 'https://github.com/Eurohelp/Replicate-LinkedOpenData-Datasets.git'"
+    description: "Pipeline ejecuta proyecto alojado en 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'"
     sandbox: true
     parameters:
       - string:
@@ -15,7 +15,7 @@
     pipeline-scm:
       scm:
         - git:
-             url: https://github.com/Eurohelp/Replicate-LinkedOpenData-Datasets.git
+             url: http://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git
              branches:
               - pipeline-parkingsrdfcreator
     name: "Replicate-Pipeline"
